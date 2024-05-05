@@ -7,7 +7,7 @@ import { ScrollView } from "react-native-gesture-handler";
 
 export default class Detail extends React.Component {
   state = {
-    modalVisible: false,
+    modalVisible: true,
   };
   setModalVisible = (visible) => {
     this.setState({ modalVisible: visible });
